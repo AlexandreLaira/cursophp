@@ -1,0 +1,162 @@
+/* Variaveis */
+
+$corbranca: #FFF;
+$navbarcolor: #121212;
+$corhover: #999;
+@mixin negrito{
+    font-weight: bold;
+}
+
+/* Navbar */
+
+.navbar-brand
+{
+    position: relative;
+
+    #logo
+    {
+        width: 50px;
+    }
+
+    #moviestar-title
+    {
+        color: $corbranca;
+        position: absolute;
+        font-size: 30px;
+        left: 55px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+}
+
+#main-navbar
+{
+    background-color: $navbarcolor;
+}
+
+#search-form
+{
+    margin: 0 auto;
+    background-color: $corbranca;
+    border-radius: 5px;
+    width: 50%;
+    margin-left: 180px;
+
+    .form-control
+    {
+        border: none;
+        width: 90%;
+        box-shadow: none;
+    }
+}
+
+#navbar
+{
+    min-width: 30%;
+
+    .navbar-nav
+    {
+        justify-content: flex-end;
+        width: 100%;
+    }
+
+    .navbar-nav .nav-item .nav-link
+    {
+        color: $corbranca;
+        transition: .2s;
+    }
+
+    .navbar-nav .nav-item .nav-link:hover
+    {
+        color: $corhover;
+    }
+}
+
+
+#main-container
+{
+    background-color: #000;
+    color: $corbranca;
+    min-height: 65vh;
+    padding: 40px;
+}
+
+/* FOOTER */
+#footer
+{
+    background-color: black;
+    color: $corbranca;
+    text-align: center;
+    margin: 0;
+    padding: 15px;
+    p
+    {
+        font-size: 12px;
+    }
+}
+    #social-container
+{
+    ul
+    {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    li
+    {
+        display: inline-block;
+        margin: 0 20px;
+        height: 30px;
+        width: 30px;
+        border-radius: 100%;
+        transition: 0.2s;
+        line-height: 3;
+    }
+
+    li:hover
+    {
+        background-color: $corhover;
+    }
+
+    a
+    {
+        color: $corbranca;
+        transition: 0.2s;
+    }
+
+    i
+    {
+        font-size: 25px;
+    }
+
+}
+
+#footer-links-container
+{
+
+    margin: 15px;
+    ul
+    {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    li
+    {
+        display: inline-block;
+        margin: 0 20px;
+    }
+
+    a
+    {
+        color: $corbranca;
+        transition: 0.2s;
+    }
+
+}
+
+
+
+
+
